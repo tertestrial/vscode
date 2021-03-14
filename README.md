@@ -2,9 +2,18 @@
 
 <img src="icons/icon-color-300.png" width="150" height="124">
 
-The official [Tertestrial](https://github.com/kevgo/tertestrial) plugin for [VSCode](https://code.visualstudio.com).
+### install
 
-This extension provides these commands inside VSCode:
+This extension is [available](https://marketplace.visualstudio.com/items?itemName=kevgo.tertestrial-vscode) in the
+Visual Studio marketplace. Please don't forget to also install the [server](https://github.com/tertestrial/server).
+
+### use
+
+1. Arrange a terminal and VSCode on your screen(s) so that you see both. You can use the terminal built into VSCode or
+   an external one here.
+2. Start the server by running `tertestrial` in that terminal.
+3. Open Visual Studio's command palette by pressing (`Ctrl-Shift-P`). Enter `Tertestrial` to trim the list of available
+   commands. Choose one of these commands:
 
 <table type="commands">
   <tr>
