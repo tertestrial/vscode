@@ -43,3 +43,7 @@ Visual Studio marketplace. Please don't forget to also install the
     <td>Start/Stop auto-repeat on file save</td>
   </tr>
 </table>
+
+### develop
+
+See the [developer guide](DEVELOPMENT.md).
