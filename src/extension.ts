@@ -51,6 +51,10 @@ function runSafe(f: () => Promise<void>): () => Promise<void> {
     } catch (e) {
       if (e instanceof UserError) {
         vscode.window.showErrorMessage(e.message)
+        if (autoRepeat) {
+          autoRepeat = false
+          notification.display("auto-repeat OFF")
+        }
       } else {
         throw e
       }
