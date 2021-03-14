@@ -14,8 +14,8 @@ Visual Studio marketplace. Please don't forget to also install the [server](http
 1. Arrange a terminal and VSCode on your screen(s) so that you see both. You can use the terminal built into VSCode or
    an external one here.
 2. Start the server by running `tertestrial` in that terminal.
-3. Open Visual Studio's command palette by pressing (`Ctrl-Shift-P`). Enter `Tertestrial` to trim the list of available
-   commands. Choose one of these commands:
+3. Open Visual Studio's command palette by pressing (`Ctrl-Shift-P` or `Cmd-Shift-P`). Enter `Tertestrial` to trim the
+   list of available commands. Choose one of these commands:
 
 <table type="commands">
   <tr>
