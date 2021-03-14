@@ -1,0 +1,86 @@
+{
+  "name": "tertestrial-vscode",
+  "displayName": "Tertestrial",
+  "description": "The official Tertestrial plugin for VSCode",
+  "publisher": "kevgo",
+  "version": "0.0.2",
+  "license": "ISC",
+  "icon": "icons/icon-color-600.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevgo/tertestrial"
+  },
+  "bugs": {
+    "url": "https://github.com/kevgo/tertestrial/issues"
+  },
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:tertestrial-vscode.testAll",
+    "onCommand:tertestrial-vscode.testFile",
+    "onCommand:tertestrial-vscode.testFunction",
+    "onCommand:tertestrial-vscode.repeatTest",
+    "onCommand:tertestrial-vscode.stopTest",
+    "onCommand:tertestrial-vscode.autoRepeat"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "tertestrial-vscode.testAll",
+        "title": "Tertestrial: Test everything"
+      },
+      {
+        "command": "tertestrial-vscode.testFile",
+        "title": "Tertestrial: Test this file"
+      },
+      {
+        "command": "tertestrial-vscode.testFunction",
+        "title": "Tertestrial: Test this function"
+      },
+      {
+        "command": "tertestrial-vscode.repeatTest",
+        "title": "Tertestrial: Repeat the last test"
+      },
+      {
+        "command": "tertestrial-vscode.stopTest",
+        "title": "Tertestrial: Stop the current test"
+      },
+      {
+        "command": "tertestrial-vscode.autoRepeat",
+        "title": "Tertestrial: Start/Stop auto-repeat on file save"
+      }
+    ],
+    "jsonValidation": [
+      {
+        "fileMatch": ".testconfig.json",
+        "url": "./src/testconfig.schema.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.34",
+    "@types/vscode": "1.54.0",
+    "@typescript-eslint/eslint-plugin": "4.17.0",
+    "@typescript-eslint/parser": "4.17.0",
+    "assert-no-diff": "^3.0.6",
+    "eslint": "7.22.0",
+    "text-runner": "5.0.0",
+    "textrun-make": "0.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "4.2.3",
+    "vsce": "1.87.0"
+  }
+}
