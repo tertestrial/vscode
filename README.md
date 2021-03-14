@@ -1,20 +1,20 @@
-<img src="icons/icon-color-300.png" width="150" height="124" align="right">
+# <img src="icons/icon-color-300.png" width="50" height="41" valign="bottom"> Tertestrial client for VSCode
 
-# Tertestrial client for VSCode
-
-![example workflow](https://github.com/tertestrial/vscode/actions/workflows/main.yml/badge.svg)
+![CI badge](https://github.com/tertestrial/vscode/actions/workflows/main.yml/badge.svg)
 
 ### install
 
 This extension is [available](https://marketplace.visualstudio.com/items?itemName=kevgo.tertestrial-vscode) in the
-Visual Studio marketplace. Please don't forget to also install the [server](https://github.com/tertestrial/server).
+Visual Studio marketplace. Please don't forget to also install the
+<img src="icons/icon-color-300.png" width="30" height="25" valign="bottom">
+[server](https://github.com/tertestrial/server).
 
 ### use
 
 1. Arrange a terminal and VSCode on your screen(s) so that you see both. You can use the terminal built into VSCode or
    an external one here.
 2. Start the server by running `tertestrial` in that terminal.
-3. Open Visual Studio's command palette by pressing (`Ctrl-Shift-P` or `Cmd-Shift-P`). Enter `Tertestrial` to trim the
+3. Open Visual Studio's command palette by pressing (`Ctrl-Shift-P` or `Cmd-Shift-P`). Enter `tertestrial` to trim the
    list of available commands. Choose one of these commands:
 
 <table type="commands">
