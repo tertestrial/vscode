@@ -1,8 +1,8 @@
+<img src="icons/icon-color-300.png" width="150" height="124" align="right">
+
 # Tertestrial client for VSCode
 
 ![example workflow](https://github.com/tertestrial/vscode/actions/workflows/main.yml/badge.svg)
-
-<img src="icons/icon-color-300.png" width="150" height="124">
 
 ### install
 
