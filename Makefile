@@ -26,14 +26,14 @@ publish-major:  # publishes a new major version
 
 setup:  # prepare this code base for development
 	yarn install
-	make build
 
 test:  # runs all the tests
 	${CURDIR}/node_modules/.bin/tsc -p . &
 	make --no-print-directory doc
 
 test-ci:  # runs all the tests on ci
-	make build
+	${CURDIR}/node_modules/.bin/tsc -p .
+	make --no-print-directory doc
 
 update:  # updates all dependencies
 	yarn upgrade --latest
