@@ -3,7 +3,7 @@
   "displayName": "Tertestrial",
   "description": "The official Tertestrial plugin for VSCode",
   "publisher": "kevgo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "ISC",
   "icon": "icons/icon-color-600.png",
   "repository": {
