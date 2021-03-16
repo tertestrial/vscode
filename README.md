@@ -1,7 +1,5 @@
 # <img src="icons/icon-color-300.png" width="50" height="41" valign="bottom"> Tertestrial client for VSCode
 
-![CI badge](https://github.com/tertestrial/vscode/actions/workflows/main.yml/badge.svg)
-
 ### install
 
 This extension is [available](https://marketplace.visualstudio.com/items?itemName=kevgo.tertestrial-vscode) in the
