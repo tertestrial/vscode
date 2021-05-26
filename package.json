@@ -5,7 +5,7 @@
   "publisher": "kevgo",
   "version": "0.0.4",
   "license": "ISC",
-  "icon": "icons/icon-color-600.png",
+  "icon": "icons/600.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/kevgo/tertestrial"

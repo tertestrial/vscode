@@ -1,11 +1,10 @@
-# <img src="icons/icon-color-300.png" width="50" height="41" valign="bottom"> Tertestrial client for VSCode
+# <img src="icons/300.png" width="50" height="41" valign="bottom"> Tertestrial client for VSCode
 
 ### install
 
 This extension is [available](https://marketplace.visualstudio.com/items?itemName=kevgo.tertestrial-vscode) in the
 Visual Studio marketplace. Please don't forget to also install the
-<img src="icons/icon-color-300.png" width="30" height="25" valign="bottom">
-[server](https://github.com/tertestrial/server).
+<img src="icons/300.png" width="30" height="25" valign="bottom"> [server](https://github.com/tertestrial/server).
 
 ### use
 
