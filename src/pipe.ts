@@ -16,7 +16,7 @@ export async function send(text: string) {
   let stat
   try {
     stat = await fs.stat(pipePath)
-  } catch (e) {
+  } catch (e: any) {
     if (e.code === "ENOENT") {
       throw new UserError("Please start the Tertestrial server first")
     } else {
