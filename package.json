@@ -22,7 +22,7 @@
   "activationEvents": [
     "onCommand:tertestrial-vscode.testAll",
     "onCommand:tertestrial-vscode.testFile",
-    "onCommand:tertestrial-vscode.testFunction",
+    "onCommand:tertestrial-vscode.testFileLine",
     "onCommand:tertestrial-vscode.repeatTest",
     "onCommand:tertestrial-vscode.stopTest",
     "onCommand:tertestrial-vscode.autoRepeat"
@@ -39,8 +39,8 @@
         "title": "Tertestrial: Test this file"
       },
       {
-        "command": "tertestrial-vscode.testFunction",
-        "title": "Tertestrial: Test this function"
+        "command": "tertestrial-vscode.testFileLine",
+        "title": "Tertestrial: Test the code at this line in this file"
       },
       {
         "command": "tertestrial-vscode.repeatTest",

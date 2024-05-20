@@ -26,8 +26,8 @@ Visual Studio marketplace. Please don't forget to also install the
     <td>Test this file</td>
   </tr>
   <tr>
-    <td><b>testFunction</b></td>
-    <td>Test this function</td>
+    <td><b>testFileLine</b></td>
+    <td>Test the code at this line in this file</td>
   </tr>
   <tr>
     <td><b>repeatTest</b></td>

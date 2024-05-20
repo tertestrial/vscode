@@ -13,7 +13,7 @@
             "properties": {
               "command": {
                 "type": "string",
-                "enum": ["testAll", "testFile", "testFunction", "repeatTest", "stopTest"],
+                "enum": ["testAll", "testFile", "testFileLine", "repeatTest", "stopTest"],
                 "description": "command sent from the Tertestrial client"
               },
               "file": {
