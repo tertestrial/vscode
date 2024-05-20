@@ -28,12 +28,8 @@ setup:  # prepare this code base for development
 	yarn install
 
 test:  # runs all the tests
-	${CURDIR}/node_modules/.bin/tsc -p . &
-	make --no-print-directory lint
-	make --no-print-directory doc
-
-test-ci:  # runs all the tests on ci
 	${CURDIR}/node_modules/.bin/tsc -p .
+	make --no-print-directory lint
 	make --no-print-directory doc
 
 update:  # updates all dependencies
