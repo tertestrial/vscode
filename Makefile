@@ -38,4 +38,5 @@ test-ci:  # runs all the tests on ci
 update:  # updates all dependencies
 	yarn upgrade --latest
 
+.DEFAULT_GOAL := help
 .SILENT:
