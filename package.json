@@ -14,18 +14,10 @@
     "url": "https://github.com/kevgo/tertestrial/issues"
   },
   "engines": {
-    "vscode": "^1.54.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Other"
-  ],
-  "activationEvents": [
-    "onCommand:tertestrial-vscode.testAll",
-    "onCommand:tertestrial-vscode.testFile",
-    "onCommand:tertestrial-vscode.testFileLine",
-    "onCommand:tertestrial-vscode.repeatTest",
-    "onCommand:tertestrial-vscode.stopTest",
-    "onCommand:tertestrial-vscode.autoRepeat"
   ],
   "main": "./out/extension.js",
   "contributes": {
