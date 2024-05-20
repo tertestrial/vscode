@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.commands.registerCommand("tertestrial-vscode.repeatTest", runSafe(repeatTest)),
     vscode.commands.registerCommand("tertestrial-vscode.stopTest", runSafe(stopTest)),
     vscode.commands.registerCommand("tertestrial-vscode.autoRepeat", switchAutoTest),
-    vscode.workspace.onDidSaveTextDocument(documentSaved)
+    vscode.workspace.onDidSaveTextDocument(documentSaved),
   )
 }
 
