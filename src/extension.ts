@@ -8,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("tertestrial-vscode.testAll", runSafe(testAll)),
     vscode.commands.registerCommand("tertestrial-vscode.testFile", runSafe(testFile)),
-    vscode.commands.registerCommand("tertestrial-vscode.testFunction", runSafe(testFunction)),
+    vscode.commands.registerCommand("tertestrial-vscode.testFileLine", runSafe(testFileLine)),
     vscode.commands.registerCommand("tertestrial-vscode.repeatTest", runSafe(repeatTest)),
     vscode.commands.registerCommand("tertestrial-vscode.stopTest", runSafe(stopTest)),
     vscode.commands.registerCommand("tertestrial-vscode.autoRepeat", switchAutoTest),
@@ -27,11 +27,11 @@ async function testFile() {
   await pipe.send(`{ "command": "testFile", "file": "${relPath}" }`)
 }
 
-async function testFunction() {
+async function testFileLine() {
   const relPath = workspace.currentFile()
   const line = workspace.currentLine() + 1
   notification.display(`testing function at ${relPath}:${line}`)
-  await pipe.send(`{ "command": "testFunction", "file": "${relPath}", "line": ${line} }`)
+  await pipe.send(`{ "command": "testFileLine", "file": "${relPath}", "line": ${line} }`)
 }
 
 async function repeatTest() {
